@@ -15,6 +15,15 @@
     },
     {
       "patterns": [
+        "/hello_world"
+      ],
+      "properties": {
+        "context": "default",
+        "uri": "turbo://fragment/hello_world"
+      }
+    },
+    {
+      "patterns": [
         "/new$",
         "/edit$"
       ],

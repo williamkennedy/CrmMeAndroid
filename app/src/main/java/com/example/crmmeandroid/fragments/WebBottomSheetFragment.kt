@@ -1,4 +1,4 @@
-package com.example.crmmeandroid.frgaments
+package com.example.crmmeandroid.fragments
 
 import android.os.Bundle
 import android.view.View

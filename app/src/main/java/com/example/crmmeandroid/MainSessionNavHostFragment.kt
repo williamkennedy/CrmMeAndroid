@@ -13,8 +13,9 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.crmmeandroid.base.Api
-import com.example.crmmeandroid.frgaments.WebFragment
-import com.example.crmmeandroid.frgaments.WebBottomSheetFragment
+import com.example.crmmeandroid.fragments.HelloWorldFragment
+import com.example.crmmeandroid.fragments.WebFragment
+import com.example.crmmeandroid.fragments.WebBottomSheetFragment
 import dev.hotwire.turbo.config.TurboPathConfiguration
 import dev.hotwire.turbo.session.TurboSessionNavHostFragment
 import dev.hotwire.turbo.views.TurboWebView
@@ -36,8 +37,8 @@ class MainSessionNavHostFragment : TurboSessionNavHostFragment() {
     override val registeredFragments: List<KClass<out Fragment>>
         get() = listOf(
             WebFragment::class,
-            WebBottomSheetFragment::class
-//            HelloWorldFragment::class,
+            WebBottomSheetFragment::class,
+            HelloWorldFragment::class
         )
 
     override fun onSessionCreated() {

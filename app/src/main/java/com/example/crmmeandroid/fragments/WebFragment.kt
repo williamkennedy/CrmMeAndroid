@@ -1,4 +1,4 @@
-package com.example.crmmeandroid.frgaments
+package com.example.crmmeandroid.fragments
 
 import com.example.crmmeandroid.base.NavDestination
 import dev.hotwire.turbo.fragments.TurboWebFragment
