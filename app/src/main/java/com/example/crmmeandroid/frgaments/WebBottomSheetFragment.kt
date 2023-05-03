@@ -12,7 +12,6 @@ import dev.hotwire.turbo.nav.TurboNavGraphDestination
 class WebBottomSheetFragment : TurboWebBottomSheetDialogFragment(), NavDestination {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        setupMenu()
     }
 
     override fun onFormSubmissionStarted(location: String) {
